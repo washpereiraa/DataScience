@@ -27,3 +27,10 @@
 -- vericar se tem commits para serem feitos
 
 	git status
+
+-- atualizar pasta local com base nos novos arquivos inseridos na nuvem git
+
+	git pull
+
+-- link para ajudar em comandos git
+https://gist.github.com/leocomelli/2545add34e4fec21ec16
