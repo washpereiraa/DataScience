@@ -1,0 +1,25 @@
+-- Abrir o cmd git e
+-- Navegar pelo cmd git ate a paste de repositorio git no computador
+
+-- comandos:
+	cd c:			-- entrar em uma pasta
+	ls			-- ver o que tem na pasta
+
+	C:\GIT\DataScience	-- caminho da minha pasta git
+
+-- acessar minha conta pelo cmg git
+
+	git config --global user.name "WashPereira"
+	git config --global user.email "washpereiraa@gmail.com"
+	-- inserir meu usuario e senha na janela de login que irá aparecer na tela
+
+-- clonar um repositorio da nuvem pro meu pc/pasta git
+
+	git clone https://github.com/WashPereira/DataScience.git
+	-- cd DataScience  		-- para entrar na pasta e executar os comandos com usuario master
+
+-- adicionar um arquivo a pasta git, fazer commit e push (enviar para a nuvem git)
+
+	git add primeira\ procedure.txt 		-- vincula o arquivo a pasta git
+	git commit -m "primeira procedure enviada ao git" primeira\ procedure.txt 		-- realiza um comentario para o novo arquivo enviado para enviar a nuvem git
+	git push -u origin master		-- envia o arquivo vinculado + comentario para nuvem git
