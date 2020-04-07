@@ -20,7 +20,7 @@
 
 -- adicionar um arquivo a pasta git, fazer commit e push (enviar para a nuvem git)
 
-	git add primeira\ procedure.txt 		-- vincula o arquivo a pasta git
+	git add primeira\ procedure.txt 		-- vincula o arquivo a pasta git (esse comando só precisa ser executado uma vez a cada arquivo novo)
 	git commit -m "primeira procedure enviada ao git" primeira\ procedure.txt 		-- realiza um comentario para o novo arquivo enviado para enviar a nuvem git
 	git push -u origin master		-- envia o arquivo vinculado + comentario para nuvem git
 
