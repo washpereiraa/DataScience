@@ -1,0 +1,63 @@
+USE [DS_TRANNING]
+GO
+/****** Object:  StoredProcedure [dbo].[SP_WORK_CLientes]    Script Date: 4/6/2020 7:51:02 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+-- =============================================
+-- Author:		<WOSH>
+-- Create date: <2020-04-03>
+-- Description:	<PRIMERIA PROCEDURE PAARA CRIAÇÃO DE TABELA-WORK/clientes>
+-- =============================================
+
+------------------------------------------
+---- criando tabela por uma procedure ----
+------------------------------------------
+
+ALTER PROCEDURE [dbo].[SP_WORK_CLientes]
+	-- essa tabela nao possui procedimentos de entrada
+AS
+BEGIN
+
+-- comando pra apagar tabela caso ela já exista no banco de dados
+if OBJECT_ID ('WORK_Clientes') is not null
+DROP TABLE [dbo].[WORK_Clientes]
+
+
+	create table WORK_Clientes
+	(
+		[RowNumber]		    int identity, -- contador de linha
+		[Customer ID]		varchar(100),
+		[City]				varchar(100),
+		[ZipCode]			varchar(11),
+		[Gender]			char(1),
+		[Age]				float
+	)
+
+
+-- apagar dados da tabela antes de inserir
+truncate table [dbo].[WORK_Clientes]
+
+
+------------------------------------------
+-- inserindo dados na tabela por procedure
+------------------------------------------
+INSERT INTO [dbo].[WORK_Clientes]
+    (
+		 [Customer ID]
+        ,[City]
+        ,[ZipCode]
+        ,[Gender]
+        ,[Age]
+	)
+
+SELECT [Customer ID]
+      ,[City]
+      ,[ZipCode]
+      ,[Gender]
+      ,[Age]
+  FROM [DS_TRANNING].[dbo].[RAW_Clientes_20200403]
+
+END
