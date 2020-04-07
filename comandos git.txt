@@ -23,3 +23,7 @@
 	git add primeira\ procedure.txt 		-- vincula o arquivo a pasta git
 	git commit -m "primeira procedure enviada ao git" primeira\ procedure.txt 		-- realiza um comentario para o novo arquivo enviado para enviar a nuvem git
 	git push -u origin master		-- envia o arquivo vinculado + comentario para nuvem git
+
+-- vericar se tem commits para serem feitos
+
+	git status
