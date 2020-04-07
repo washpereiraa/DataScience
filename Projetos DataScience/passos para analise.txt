@@ -1,0 +1,4 @@
+passos para analise
+1. checagem de data
+2. checagem de valores/dinheiro
+3. checagem de textos longos e integridade dos dados

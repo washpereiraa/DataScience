@@ -1,0 +1,5 @@
+[Flat File Source [2]] Error: Data conversion failed. The data conversion for column "Feedback" returned status value 4 and status text "Text was truncated or one or more characters had no match in the target code page.".
+
+[Flat File Source [2]] Error: The "Flat File Source.Outputs[Flat File Source Output].Columns[Feedback]" failed because truncation occurred, and the truncation row disposition on "Flat File Source.Outputs[Flat File Source Output].Columns[Feedback]" specifies failure on truncation. A truncation error occurred on the specified object of the specified component.
+
+[Flat File Source [2]] Error: An error occurred while processing file "C:\Projetos DataScience\20200401 Clientes Africa do Sul\3- Dados Upload\20200402\Clientes Africa do Sul.csv" on data row 31352.
