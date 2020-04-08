@@ -21,7 +21,8 @@ APÓS A INSTALAÇÃO
 * abrir o cmd
 
 * navegue pelo cmd até a pasta criada do projeto
-	cd C:/GIT/Projetos-DataScience-PythonJupyter
+	cd C:/GIT/DataScience/Projetos-DataScience-PythonJupyter
 	digite: jupyter notebook : tecle enter
 
 * não pode fechar o cmd enquanto estiver trabalhando com python/jupyter
+uma pagina web ira abrir e monitorar a pasta criando um pacote compartilavel com todos documentos e imagnes do projeto
