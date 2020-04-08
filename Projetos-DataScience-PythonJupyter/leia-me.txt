@@ -1,0 +1,27 @@
+instalar python por esse site, pq vem com todos as bibliotecas python
+https://www.anaconda.com/distribution/#download-section
+
+Nesse projetos vamos usar a tecnologia 
+	linguagem python em conjunto com a bilbioteca jupyter notebook
+
+	*The Jupyter Notebook is an open-source web application that allows 
+	you to create and share documents that contain live code, equations, 
+	visualizations and narrative text. Uses include: data cleaning and transformation, 
+	numerical simulation, statistical modeling, data visualization, machine learning, and much more.*
+
+INSTRUÇÕES DE USO
+
+*instale python marcando a intalação em todas as variaveis de ambiente
+ para que possamos usar a tecnologia em qualquer pasta
+	opção descrita como:
+	add Anaconda to my Path environment variable
+
+APÓS A INSTALAÇÃO
+
+* abrir o cmd
+
+* navegue pelo cmd até a pasta criada do projeto
+	cd C:/GIT/Projetos-DataScience-PythonJupyter
+	digite: jupyter notebook : tecle enter
+
+* não pode fechar o cmd enquanto estiver trabalhando com python/jupyter
