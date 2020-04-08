@@ -1,0 +1,17 @@
+APÓS SEGUI O LEIA-ME DESSA PASTA, SEGUI OS SEGUINTES PASSOS
+
+* com o link aberto (http://localhost:8888/tree)
+
+clicar em 
+	new - python 3
+ira abrir um novo documento
+	editar o nome para primeiros passos em jupyter notebook
+		http://localhost:8888/notebooks/Primeiros%20passos%20com%20jupyter.ipynb
+
+in [] / out [] -- entrada e saida de dados
+
+ESCREVER PRIMEIRO CODIGO
+
+	in [] print ('hello world')
+
+shift + enter para executar
